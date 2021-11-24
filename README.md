@@ -13,8 +13,7 @@ WebDoc Website
 
 ## Website
 <img src="assets/logo.svg" alt="logo" width="400" height="200" >
- 
-</svg-->
+
 
 ### business description
 
