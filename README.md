@@ -12,6 +12,7 @@ WebDoc Website
 <p>leerzeichen7 - Weigel, Tom</p>
 
 ## Website
+<img src="assets/NICE_V3.png" alt="Logo" width="301" height="301">
 
 ### business description
 
