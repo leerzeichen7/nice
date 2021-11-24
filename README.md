@@ -4,7 +4,7 @@ WebDoc Website
 
 ## Description
 
-GitHub for Creating our WebDoc (WiSe 21/22) website.
+<p>This is our GitHub for Creating the WebDoc (WiSe 21/22) website.</p>
 
 ## Authors
 
