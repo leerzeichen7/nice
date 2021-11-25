@@ -16,6 +16,8 @@ WebDoc Website
 
 
 ### business description
+<p>NICE is a guide for tv series and shall help users to find the best shows to stream online by providing interesting information about the shows, e.g. where to watch them, related shows, background knowledge etc.</p>
+
 
 ### website requirements
 
