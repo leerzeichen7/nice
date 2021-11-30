@@ -24,6 +24,11 @@ WebDoc Website
 
 
 ### website requirements
+<p>-credits page will be a xml data file/</p>
+<p>-trailers are links to streaming services/</p>
+<p>-business log will be a svg file/</p>
+
 
 ### website content
+<p>can be found in assignment2a/website-content</p>
 
