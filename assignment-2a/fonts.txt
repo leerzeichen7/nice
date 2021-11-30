@@ -1,0 +1,6 @@
+For our website we want to use one of the following fonts:
+-Comic Sans
+-Open Sans
+-Arial
+-Calibri
+-TNR
