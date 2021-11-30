@@ -2,10 +2,6 @@
 
 WebDoc Website
 
-## Description
-
-<p>This is our GitHub for Creating the WebDoc (WiSe 21/22) website.</p>
-
 ## Authors
 
 <p>a1d4c7 - Grund, Jan-Niklas</p>
