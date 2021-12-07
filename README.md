@@ -9,7 +9,7 @@ WebDoc Website
 
 ## Website
 <img src="assets/logo.svg" alt="logo" width="400" height="200" >
-<p>www.nice-az.com <br></br> <a href='https://www.name.com/domain/search/nice-az.com'>domain checker</a></p>
+<p>Our domain is: www.nice-az.com -> <a href='https://www.name.com/domain/search/nice-az.com'>domain checker</a></p>
 
 ### contact information
 <p>2401 N 17TH PHOENIX AZ 85006-1802 USA</p>
