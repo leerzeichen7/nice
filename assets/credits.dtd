@@ -1,0 +1,6 @@
+<!ELEMENT Credits (Credit*)>
+<!ELEMENT Credit (Picture | Video)>
+<!ELEMENT Picture (Title, Source)>
+<!ELEMENT Video (Title, Source)>
+<!ELEMENT Titel (#PCDATA)>
+<!ELEMENT Source (#PCDATA)>
