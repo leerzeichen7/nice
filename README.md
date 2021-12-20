@@ -31,3 +31,31 @@ WebDoc Website
 ### website content
 <p>can be found in assignment2a/website-content</p>
 
+### Division of work
+<table>
+    <tr>
+        <th>Task</th>
+        <th>Responsible person</th>
+    </tr>
+    <tr>
+        <th>11 html pages (Desktop version)</th>
+        <th>Maria Konrad</th>
+    </tr>
+    <tr>
+        <th>Webpages mobile & tablet version</th>
+        <th>Sze Hei Li</th>
+    </tr>
+    <tr>
+        <th>CSS Styling</th>
+        <th>Sze Hei Li</th>
+    </tr>
+    <tr>
+        <th>Prototype (home.html desktop version)</th>
+        <th>Maria Konrad</th>
+    </tr>
+    <tr>
+        <th>Prototype (home.html mobile/tablet version)</th>
+        <th>Sze Hei Li</th>
+    </tr>
+</table>
+

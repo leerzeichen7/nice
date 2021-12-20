@@ -1,0 +1,50 @@
+* {
+  font-family: Calibri, sans-serif;
+}
+
+body {
+  background-color: #484848; /*grey*/
+  color: white
+}
+
+h1, h2, h3, h4 {
+  color: #A1D4C7; /*blue*/
+}
+
+.topnav {
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #FF6262; /*red*/
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+/*  border-style: solid;
+  border-color: #A1D4C7;*/
+  background-color: white;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+}
+
+.topnav a.active {
+  background-color: #A1D4C7; /*blue*/
+  color: #FF6262; /*red*/
+}
+
+.topnav .icon {
+  display: none;
+}
+
+a {
+  color: #A1D4C7; /*blue*/
+}
+
+a:hover {
+  color: #FF6262; /*red*/
+}
