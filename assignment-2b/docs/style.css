@@ -16,16 +16,18 @@ h1, h2, h3, h4 {
 }
 
 .topnav a {
+ width: 100px;
+
   float: left;
   display: block;
   color: #FF6262; /*red*/
   text-align: center;
-  padding: 14px 16px;
+  padding: 10px 20px;
   text-decoration: none;
   font-size: 17px;
-/*  border-style: solid;
-  border-color: #A1D4C7;*/
-  background-color: white;
+  border-style: solid;
+  border-color: #A1D4C7;
+  background-color: #484848;;
 }
 
 .topnav a:hover {
@@ -47,4 +49,145 @@ a {
 
 a:hover {
   color: #FF6262; /*red*/
+}
+
+.center {
+  margin: 0 auto;
+  width: 200px;
+  background: black;
+  padding: 20px;
+  color: white;
+}
+
+.news-item {
+    margin: 0 auto;
+    width: 1000px;
+
+    padding: 80px;
+    color: black;
+    display: block;
+    background: #eee;
+    padding-left:15px;
+        padding-right:15px;
+}
+
+.text-style {
+    color: black;
+    text-align: center;
+    font-family: "Calibri";
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.line {
+    border-bottom: 5px solid black;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.container {
+    margin: 0 auto;
+    width:60%;
+    height: 10%;
+
+    padding-top:20px;
+    padding-left:15px;
+    padding-right:15px;
+
+}
+
+.right-sidebar {
+    float: right;
+}
+
+.right-sidebar .logo-container {
+    width: 100px;
+    height: 100px;
+    margin: 30px;
+    background-color: white;
+}
+
+.right-sidebar .logo-container img {
+    width: 100%;
+}
+
+.footer{
+text-align: center;
+}
+
+span a:not(:first-child){
+    border-left:1px solid #000;
+}
+spnan:not(:first-child){
+    border-top:1px solid #000;
+}
+
+span{
+    padding:5px 0;
+    margin:0;
+}
+
+a {
+    padding:0 5px;
+}
+
+.email {
+    text-align: center;
+}
+
+.series-block {
+    display: table-row;
+}
+
+.series-block .series-logo {
+    display: table-column;
+    float: left;
+    width: auto;
+    /*padding: 20px;*/
+    margin: 10px;
+    /*border: black solid 1px;*/
+}
+
+.series-block a {
+  display: table-column;
+    float: left;
+}
+
+.series-block .series-logo img {
+    width: 100px;
+}
+
+.series-block .series-description {
+    display: table-column;
+    float: left;
+    width: 80%;
+    padding: 20px;
+    margin: 10px;
+    /*border: black solid 1px;*/
+}
+
+.detailed-description {
+   width: 80%;
+    padding: 20px;
+    margin: 10px;
+}
+
+#st-box {
+    margin: 0 auto;
+    width: 100%;
+    height:160px;
+}
+
+#nd-box {
+
+    margin: 0 auto;
+    width: 100%;
+    height:160px;
+}
+
+#rd-box {
+
+    margin: 0 auto;
+    width: 100%;
+    height:160px;
 }
