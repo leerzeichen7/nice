@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Riot background information</title>
 </head>
 <body>
@@ -16,12 +17,6 @@
     <a href="home.html"><img class="logo-container" src="assets/logo.svg"></a>
 </div>
 
-<div class="right-sidebar">
-    <div class="logo-container">
-<!--        <img src="assets/logo.svg">-->
-    </div>
-</div>
-
 <div class="container">
     <div class="text-style">
         Riot
@@ -29,22 +24,26 @@
 
     <div class="line"></div>
 
-    <div>
-        <img src="assets/Riot/League_of_Legends_logo.png" alt="series logo">
-    </div>
-    <div>
-        <img src="assets/Riot/Legends_of_Runeterra_logo.png" alt="series logo">
-    </div>
-    <div>
-        <img src="assets/Riot/Teamfight_Tactics_logo.png" alt="series logo">
-    </div>
-    <div>
-        <img src="assets/Riot/Wild Rift Poster_logo.jpg" alt="series logo">
+    <div class="Rtable Rtable--collapse">
+        <div class="Rtable-cell Rtable-cell--head">
+            <span class="bg-info-pic"><img src="assets/Riot/League_of_Legends_logo.png" alt="series logo">
+            </span>
+        </div>
+        <div class="Rtable-cell Rtable-cell--head even">
+            <span class="bg-info-pic"><img src="assets/Riot/Legends_of_Runeterra_logo.png" alt="series logo">
+            </span>
+        </div>
+        <div class="Rtable-cell Rtable-cell--head">
+            <span class="bg-info-pic"><img src="assets/Riot/Teamfight_Tactics_logo.png" alt="series logo">
+    </span>
+        </div>
+        <div class="Rtable-cell Rtable-cell--head even">
+            <span class="bg-info-pic"><img src="assets/Riot/Wild Rift Poster_logo.jpg" alt="series logo">
+            </span>
+        </div>
     </div>
 
 </div>
-
-
 
 <footer class="footer">
     <span>
@@ -54,5 +53,15 @@
     </span>
 </footer>
 
+<script type="text/javascript">
+function toggleTopNav() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
 </body>
 </html>

@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Loki</title>
 </head>
 <body>
@@ -18,32 +19,26 @@
 
 <div class="right-sidebar">
     <div class="logo-container">
-<!--        <img src="assets/logo.svg">-->
-        <input type="button" onclick="location.href='marvel-info.html';" value="Background info" />
+        <input type="button" class="background-info" onclick="location.href='marvel-info.html';" value="Background info" />
     </div>
 </div>
 
 <div class="container">
     <div class="text-style">
-        Loki
+        <img class="series-title-logo" src="assets/Loki/Loki Logo.svg" alt="series logo">
     </div>
 
     <div class="line"></div>
-
-
-    <iframe width="500" height="250" src="https://www.youtube.com/embed/nW948Va-l10" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
-<div>
-    Tom Hiddleston reprises his role as Loki from the film series, with Gugu Mbatha-Raw, Wunmi Mosaku, Eugene Cordero, Tara Strong, Owen Wilson, Sophia Di Martino, Sasha Lane, Jack Veal, DeObia Oparei, Richard E. Grant, and Jonathan Majors also starring. By September 2018, Marvel Studios was developing a number of limited series for Disney+, centered on supporting characters from the MCU films. A series featuring Hiddleston as Loki was confirmed in November 2018. Waldron was hired in February 2019, and Herron had joined by that August. Filming began in February 2020 in Atlanta, Georgia, but was halted in March 2020 due to the COVID-19 pandemic. Production resumed that September and completed in December.
-    Loki premiered on June 9, 2021. Its first season, consisting of six episodes, concluded on July 14 and is part of Phase Four of the MCU. It received positive reviews, with praise for the performances, musical score, and visuals. A second season is in development.
+    <div class="Rtable">
+        <div class="Rtable-cell center iframe-container">
+            <iframe class="responsive-iframe" src="https://www.youtube.com/embed/nW948Va-l10" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="Rtable-cell">
+            Tom Hiddleston reprises his role as Loki from the film series, with Gugu Mbatha-Raw, Wunmi Mosaku, Eugene Cordero, Tara Strong, Owen Wilson, Sophia Di Martino, Sasha Lane, Jack Veal, DeObia Oparei, Richard E. Grant, and Jonathan Majors also starring. By September 2018, Marvel Studios was developing a number of limited series for Disney+, centered on supporting characters from the MCU films. A series featuring Hiddleston as Loki was confirmed in November 2018. Waldron was hired in February 2019, and Herron had joined by that August. Filming began in February 2020 in Atlanta, Georgia, but was halted in March 2020 due to the COVID-19 pandemic. Production resumed that September and completed in December.
+            Loki premiered on June 9, 2021. Its first season, consisting of six episodes, concluded on July 14 and is part of Phase Four of the MCU. It received positive reviews, with praise for the performances, musical score, and visuals. A second season is in development.
+        </div>
+    </div>
 </div>
-
-
-
-</div>
-
-
 
 <footer class="footer">
     <span>
@@ -53,5 +48,15 @@
     </span>
 </footer>
 
+<script type="text/javascript">
+function toggleTopNav() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
 </body>
 </html>
