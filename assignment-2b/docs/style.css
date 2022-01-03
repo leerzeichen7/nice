@@ -34,7 +34,7 @@ footer {
   width: 100px;
   float: left;
   display: block;
-  color: @red;
+  color: red;
   text-align: center;
   padding: 30px 20px;
   text-decoration: none;
@@ -306,20 +306,21 @@ dd {
 
 /* Responsive
 ==================================== */
+/*
 @media all and (max-width: 500px) {
   .Rtable--collapse  {
     display: block;
     > .Rtable-cell { width: 100% !important; }
     > .Rtable-cell--foot { margin-bottom: 1em; }
   }
-}
+}*/
 
 /* Non-Flex modernizer fallback */
-.no-flexbox .Rtable {
+/*.no-flexbox .Rtable {
   display: block;
   > .Rtable-cell { width: 100%; }
   > .Rtable-cell--foot { margin-bottom: 1em; }
-}
+}*/
 
 .responsive-iframe {
   position: absolute;
