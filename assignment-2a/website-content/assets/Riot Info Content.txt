@@ -1,0 +1,16 @@
+League of Legends:
+	Text:	League of Legends (or LoL; initially League of Legends: Clash of Fates) is a multiplayer online battle arena (MOBA) genre video game developed by Riot Games. It was designed to operate on the Microsoft Windows operating system. The game was first announced on October 7, 2008 and released a year later on October 27, 2009. The game was in beta from April 10, 2009 to October 26th, 2009.
+	Source:	https://leagueoflegends.fandom.com/wiki/League_of_Legends
+
+Legends of Runeterra:
+	Text:	Legends of Runeterra (or LoR) is a card game developed by Riot Games (development name was Project B). The game was first announced by Riot Games, and entered its first closed beta, on October 15th 2019, coinciding with the 10th Anniversary of League of Legends icon.png League of Legends, and then was released permanently but still in open beta after being announced during the lead up to Season Ten's start on 24th January 2020. It was released in full on April 30th 2020.
+	Source:	https://leagueoflegends.fandom.com/wiki/Legends_of_Runeterra_(game)
+
+Team Fight Tactics:
+	Text: 	Teamfight Tactics (or TFT) is an autobattler by Riot Games. On PC, it is currently only playable through the League of Legends client as a game mode, with a standalone application available for mobile. It was first presented on June 10, 2019, available on PBE on June 18, 2019, and available across live servers on June 25–28, 2019.
+		TFT is an 8-player free-for-all drafting tactics game in which the player recruits powerful champions, deploys them, and battles to become the last player standing.
+	Source: https://leagueoflegends.fandom.com/wiki/Teamfight_Tactics_(game)
+
+Wild Rift:
+	Text:	League of Legends: Wild Rift (also called Wild Rift or WR) is an multiplayer online battle arena game currently available for iOS and Android phones with console release details TBD. The game was developed by Riot Games, a subsidiary of Tencent. and is an abridged version of its PC counterpart, League of Legends, with its own champion roster and content releases.
+	Source:	https://leagueoflegends.fandom.com/wiki/League_of_Legends:_Wild_Rift
