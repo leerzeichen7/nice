@@ -46,7 +46,6 @@ footer {
 }
 
 .navlink.active {
-/*  background-color: #A1D4C7; /*blue*/
   color: #FF6262; /*red*/
   text-decoration: underline;
 }
@@ -73,18 +72,6 @@ a:hover {
   text-align: center;
 }
 
-.news-item {
-    margin: 0 auto;
-    width: 1000px;
-
-    padding: 80px;
-    color: black;
-    display: block;
-    background: #eee;
-    padding-left:15px;
-    padding-right:15px;
-}
-
 .text-style {
     color: #A1D4C7; /*blue*/
     text-align: center;
@@ -105,11 +92,9 @@ a:hover {
     margin: 0 auto;
     width:75%;
     height: 10%;
-
     padding-top:20px;
     padding-left:15px;
     padding-right:15px;
-
 }
 
 .right-sidebar {
@@ -134,7 +119,7 @@ span{
 
 a {
    color: #A1D4C7; /*blue*/
-    padding:0 5px;
+   padding:0 5px;
 }
 
 .email {
@@ -159,7 +144,7 @@ a {
 }
 
 .detailed-description {
-   width: 80%;
+    width: 80%;
     padding: 20px;
     margin: 10px;
 }
@@ -275,6 +260,7 @@ dd {
   width: 100%;
   padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
 }
+
 .iframe-container-small {
   position: relative;
   max-width: 50%;
