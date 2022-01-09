@@ -170,6 +170,13 @@ a {
    text-align: center;
 }
 
+.about-logo img{
+   position: relative;
+   max-width: 500px;
+   max-width: 100%;
+   text-align: center;
+}
+
 .sign-up {
   color: #FF6262; /*red*/
   text-align: center;
