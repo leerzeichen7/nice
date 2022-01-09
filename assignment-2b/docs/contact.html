@@ -7,35 +7,39 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Contact</title>
 </head>
+
 <body>
-<div class="topnav" id="myTopnav">
+<nav class="topnav" id="myTopnav">
     <a href="javascript:void(0);" class="icon navlink" onclick="toggleTopNav()">
         <i class="fa fa-bars"></i>
     </a>
-    <a href="home.html"><img class="niceLogo" src="assets/logo.svg"></a>
+    <a href="home.html"><img class="niceLogo" src="assets/logo.svg" alt="Nice's brand logo"></a>
     <a href="home.html" class="navlink homeNav">Home</a>
     <a href="overview.html" class="navlink overviewNav">Overview</a>
-    <a href="home.html"><img class="logo-container brandLogo" src="assets/logo.svg"></a>
-</div>
+    <a href="home.html"><img class="logo-container brandLogo" src="assets/logo.svg" alt=""></a>
+</nav>
 
-<div class="container">
-    <div class="text-style">Contact information</div>
-    <div class="line"></div>
+<main>
+    <div class="container">
+        <div class="text-style">Contact information</div>
+        <div class="line"></div>
 
-    <div class="center before-footer">
-        <div class="iframe-container-small center">
-            <iframe class="responsive-iframe map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13309.319587749966!2d-112.09250186549542!3d33.49279308699788!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872b12f6d0a5df0d%3A0x1a0796bed0614b31!2sPhoenix%2C%20AZ%2085067%2C%20USA!5e0!3m2!1sen!2sde!4v1641757435058!5m2!1sen!2sde" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <div class="center before-footer">
+            <div class="iframe-container-small center">
+                <iframe class="responsive-iframe map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13309.319587749966!2d-112.09250186549542!3d33.49279308699788!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872b12f6d0a5df0d%3A0x1a0796bed0614b31!2sPhoenix%2C%20AZ%2085067%2C%20USA!5e0!3m2!1sen!2sde!4v1641757435058!5m2!1sen!2sde" width="600" height="450" style="border:0;" allowfullscreen=""></iframe>
+            </div>
+            <p>
+                <a href="https://goo.gl/maps/dJtdAmuFQShzK9TS7" target="_blank">2003 Essex Court, 85067 Phoenix, AZ</a><br/>
+                Email: <a id="infoEmail" href="#" onclick="copyToClipboard('infoEmail')">info@nice-az.com</a>
+                or <a id="supportEmail" href="#" onclick="copyToClipboard('supportEmail')">support@nice-az.com</a><br/>
+                Phone number: +1 623 7293746<br/>
+                Instagram: @nice-az<br/>
+                Twitter: @nice-az<br/>
+            </p>
         </div>
-        <p>
-            <a href="https://goo.gl/maps/dJtdAmuFQShzK9TS7" target="_blank">2003 Essex Court, 85067 Phoenix, AZ</a><br/>
-            Email: <a id="infoEmail" href="#" onclick="copyToClipboard('infoEmail')">info@nice-az.com</a>
-            or <a id="supportEmail" href="#" onclick="copyToClipboard('supportEmail')">support@nice-az.com</a><br/>
-            Phone number: +1 623 7293746<br/>
-            Instagram: @nice-az<br/>
-            Twitter: @nice-az<br/>
-        </p>
     </div>
-</div>
+</main>
+
 <footer class="footer">
     <span>
         <a href="about.html">About</a>

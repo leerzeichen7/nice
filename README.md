@@ -57,5 +57,9 @@ WebDoc Website
         <th>Prototype (home.html mobile/tablet version)</th>
         <th>Sze Hei Li</th>
     </tr>
+    <tr>
+        <th>XHTML5 and CSS validation</th>
+        <th>Sze Hei Li</th>
+    </tr>
 </table>
 

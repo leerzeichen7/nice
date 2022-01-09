@@ -177,19 +177,7 @@ a {
    text-align: center;
 }
 
-.sign-up {
-  color: #FF6262; /*red*/
-  text-align: center;
-  text-decoration: none;
-  border-style: solid 2px;
-  border-color: #A1D4C7;
-  background-color: #A1D4C7;
-  border-radius: 2px;
-  font-size: 1em;
-  cursor: pointer;
-}
-
-.background-info {
+.sign-up, .background-info {
   color: #FF6262; /*red*/
   text-align: center;
   text-decoration: none;
