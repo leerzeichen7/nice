@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>The Falcon and the Winter Soldier</title>
+</head>
+
+<body>
+<nav class="topnav" id="myTopnav">
+    <a href="javascript:void(0);" class="icon navlink" onclick="toggleTopNav()">
+        <i class="fa fa-bars"></i>
+    </a>
+    <a href="home.html"><img class="niceLogo" src="assets/logo.svg" alt="Nice's brand logo"></a>
+    <a href="home.html" class="navlink homeNav">Home</a>
+    <a href="overview.html" class="navlink overviewNav">Overview</a>
+    <a href="home.html"><img class="logo-container brandLogo" src="assets/logo.svg" alt=""></a>
+</nav>
+
+<main>
+    <div class="right-sidebar">
+        <div class="logo-container">
+            <input type="button" class="background-info" onclick="location.href='marvel-info.html';" value="Background info" />
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="text-style">
+            Falcon and the Winter Soldier
+        </div>
+
+        <div class="line"></div>
+        <div class="Rtable">
+            <div class="Rtable-cell center iframe-container">
+                <iframe class="responsive-iframe" src="https://www.youtube.com/embed/IWBsDaFWyTE" title="YouTube video player"></iframe>
+            </div>
+            <div class="Rtable-cell">
+                <div>
+                    Sebastian Stan and Anthony Mackie reprise their respective roles as Bucky Barnes and Sam Wilson from the film series, with Wyatt Russell, Erin Kellyman, Danny Ramirez, Georges St-Pierre, Adepero Oduye, Don Cheadle, Daniel Brühl, Emily VanCamp, Florence Kasumba, and Julia Louis-Dreyfus also starring. By September 2018, Marvel Studios was developing a number of limited series for Disney+, centered on supporting characters from the MCU films such as Wilson and Barnes. Spellman was hired in October, and chose to focus on the racial issues raised by Wilson being handed Captain America's shield at the end of Endgame. The Falcon and the Winter Soldier was confirmed in April 2019, and Skogland was hired the next month. Filming began in October 2019 in Atlanta, Georgia, before moving to the Czech Republic in March 2020. Production was halted due to the COVID-19 pandemic, but resumed in Atlanta in September before wrapping in the Czech Republic in October.
+                    The Falcon and the Winter Soldier premiered on March 19, 2021, and ran for six episodes until April 23. It is part of Phase Four of the MCU. The series received positive reviews, with critics highlighting the actors' chemistry and the series' social commentary but criticizing its pacing. It received five Emmy Award nominations. A fourth Captain America film is in development as a continuation of the series.
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<footer class="footer">
+    <span>
+        <a href="about.html">About</a>
+        <a class="footer-link" href="contact.html">Contact</a>
+        <a class="footer-link" href="credits.html">Credits</a>
+    </span>
+</footer>
+
+<script>
+function toggleTopNav() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+</body>
+</html>

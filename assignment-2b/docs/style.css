@@ -4,47 +4,316 @@
 
 body {
   background-color: #484848; /*grey*/
-  color: white
+  color: white;
+  margin: 0;
+  min-height: 100vh;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
 }
 
-h1, h2, h3, h4 {
-  color: #A1D4C7; /*blue*/
+footer {
+   width: 100%;
+   background-color: grey;
+   color: white;
+   text-align: center;
+   clear: both;
+   position: relative;
+   height: 25px;
+   margin-top: auto;
 }
 
 .topnav {
+  text-align: center;
   overflow: hidden;
+  background-color: white;
+  height: 100%;
 }
 
-.topnav a {
+.navlink {
+  width: 100px;
   float: left;
   display: block;
-  color: #FF6262; /*red*/
+  color: red;
   text-align: center;
-  padding: 14px 16px;
+  padding: 30px 20px;
   text-decoration: none;
-  font-size: 17px;
-/*  border-style: solid;
-  border-color: #A1D4C7;*/
-  background-color: white;
+  font-size: 1.2em;
 }
 
-.topnav a:hover {
-  background-color: #ddd;
+.navlink:hover {
+  background-color: #A1D4C7;
 }
 
-.topnav a.active {
-  background-color: #A1D4C7; /*blue*/
+.navlink.active {
   color: #FF6262; /*red*/
+  text-decoration: underline;
 }
 
 .topnav .icon {
   display: none;
 }
 
-a {
+.topnav .niceLogo {
+  display: none;
+}
+
+.footer a {
   color: #A1D4C7; /*blue*/
 }
 
 a:hover {
   color: #FF6262; /*red*/
+}
+
+.center {
+  margin: 0 auto;
+  color: white;
+  text-align: center;
+}
+
+.text-style {
+    color: #A1D4C7; /*blue*/
+    text-align: center;
+    font-family: "Calibri";
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.line {
+    border-radius: 5px;
+    border-bottom: 3px solid #A1D4C7; /*blue*/
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.container {
+    margin: 0 auto;
+    width:75%;
+    height: 10%;
+    padding-top:20px;
+    padding-left:15px;
+    padding-right:15px;
+}
+
+.right-sidebar {
+    float: right;
+    margin-top: 20px;
+}
+
+.logo-container {
+    float: right;
+    max-height: 80px;
+    padding-right: 30px;
+ }
+
+.footer-link {
+    border-left:1px solid #000000;
+}
+
+span{
+    padding:5px 0;
+    margin:0;
+}
+
+a {
+   color: #A1D4C7; /*blue*/
+   padding:0 5px;
+}
+
+.email {
+    display: block;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.before-footer {
+    padding-bottom: 40px;
+}
+
+.series-logo img {
+    width: 100%;
+}
+
+.series-title-logo {
+  position: relative;
+  width: 75%;
+  min-height: 60px;
+  max-height: 160px;
+}
+
+.detailed-description {
+    width: 80%;
+    padding: 20px;
+    margin: 10px;
+}
+
+.bg-info-pic img{
+   position: relative;
+   width: 100%;
+   text-align: center;
+}
+
+.about-logo img{
+   position: relative;
+   max-width: 500px;
+   max-width: 100%;
+   text-align: center;
+}
+
+.sign-up, .background-info {
+  color: #FF6262; /*red*/
+  text-align: center;
+  text-decoration: none;
+  border-style: solid;
+  border-width: thin 2px;
+  background-color: #A1D4C7;
+  border-radius: 2px;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.input-group {
+  display: flex;
+  width: 200px;
+}
+
+th, td {
+  color: #484848;
+  padding: 20px;
+  text-align: left;
+}
+
+tr:hover, tr:nth-child(even):hover {
+  background-color: #A1D4C7; /*blue*/
+}
+
+tr:nth-child(even) {
+  background-color: #ECEAE9;
+}
+
+tr {
+  background-color: white;
+}
+
+.credit-container {
+  padding-left: 5px;
+  padding-right: 5px;
+  overflow: auto;
+}
+
+dt {
+  padding-top: 8px;
+  text-align: center;
+}
+
+dd {
+  color: #FF6262; /*red*/
+  text-align: center;
+}
+
+.Rtable {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 0 3em 0;
+  padding: 0;
+  position: relative;
+  top: 3px;
+  left: 3px;
+  text-align: left;
+  justify-content: center;
+}
+
+.Rtable-cell {
+  box-sizing: border-box;
+  flex-grow: 1;
+  width: 100%;
+  padding: 0.8em;
+  overflow: hidden;
+  color: #484848;
+  background-color: white;
+}
+
+.even {
+  background-color: #ECEAE9;
+}
+
+.Rtable-cell--foot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.Rtable--2cols > .Rtable-cell--head {
+  width: 30%;
+}
+
+.Rtable--2cols > .Rtable-cell--foot {
+  width: 70%;
+}
+
+.iframe-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+}
+
+.iframe-container-small {
+  position: relative;
+  max-width: 50%;
+  padding-top: 30%;
+}
+/* Responsive==================================== */
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* When the screen is less than 500 pixels wide, hide all links, except for the hamburger icon. Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 500px) {
+  .homeNav, .overviewNav,.brandLogo {
+    display: none;
+  }
+  .topnav a.icon {
+    float: left;
+    display: block;
+  }
+  .topnav .niceLogo {
+    float: right;
+    display: block;
+    position: static;
+    max-height: 80px;
+    padding-right: 30px;
+  }
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 500px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: relative;
+    float: none;
+    display: block;
+    left: 0;
+    top: 0;
+  }
+  .topnav.responsive .navlink {
+    float: none;
+    display: block;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .topnav .niceLogo {
+    display: none;
+  }
 }
