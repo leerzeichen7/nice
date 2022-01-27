@@ -130,6 +130,7 @@ h1 {
 
 .footer-link {
     border-left:1px solid #000000;
+    padding-left: 8px;
 }
 
 span{
@@ -137,9 +138,12 @@ span{
     margin:0;
 }
 
+.thick {
+    font-weight: bold;
+}
+
 a {
    color: #A1D4C7; /*blue*/
-   padding:0 5px;
 }
 
 .email {
@@ -260,7 +264,7 @@ dd {
 }
 
 .Rtable-cell--foot {
-  display: flex;
+  /*display: flex;*/
   justify-content: center;
   align-items: center;
   width: 100%;
