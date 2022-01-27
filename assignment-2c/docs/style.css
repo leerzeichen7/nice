@@ -23,6 +23,17 @@ footer {
    margin-top: auto;
 }
 
+.home-footer {
+   width: 100%;
+   background-color: grey;
+   color: white;
+   text-align: center;
+   clear: both;
+   position: relative;
+   height: 45px;
+   margin-top: auto;
+}
+
 .topnav {
   text-align: center;
   overflow: hidden;
