@@ -14,7 +14,7 @@ body {
 
 footer {
    width: 100%;
-   background-color: #333333;
+   background-color: grey;
    color: white;
    text-align: center;
    clear: both;
@@ -34,7 +34,7 @@ footer {
   width: 100px;
   float: left;
   display: block;
-  color: #A30000;
+  color: red;
   text-align: center;
   padding: 30px 20px;
   text-decoration: none;
@@ -46,7 +46,7 @@ footer {
 }
 
 .navlink.active {
-  color: #A30000; /*red*/
+  color: #FF6262; /*red*/
   text-decoration: underline;
 }
 
@@ -63,7 +63,7 @@ footer {
 }
 
 a:hover {
-  color: #A30000; /*red*/
+  color: #FF6262; /*red*/
 }
 
 .center {
@@ -172,7 +172,7 @@ a {
 }
 
 .sign-up, .background-info {
-  color: #A30000; /*red*/
+  color: #FF6262; /*red*/
   text-align: center;
   text-decoration: none;
   border-style: solid;
@@ -218,7 +218,7 @@ dt {
 }
 
 dd {
-  color: #A30000; /*red*/
+  color: #FF6262; /*red*/
   text-align: center;
 }
 
