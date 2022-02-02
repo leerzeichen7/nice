@@ -18,13 +18,13 @@
 
 <body>
 <nav class="topnav" id="myTopnav">
-    <a href="javascript:void(0);" class="icon navlink" onclick="toggleTopNav()">
+    <a aria-label="topnav link" href="javascript:void(0);" class="icon navlink" onclick="toggleTopNav()">
         <i class="fa fa-bars"></i>
     </a>
     <a href="home.html"><img class="niceLogo" src="assets/logo.svg" alt="Nice's brand logo"></a>
     <a href="home.html" class="active navlink homeNav">Home</a>
     <a href="tv-series.html" class="navlink overviewNav">TV Series</a>
-    <a href="home.html"><img class="logo-container brandLogo" src="assets/logo.svg" alt=""></a>
+    <a href="home.html"><img class="logo-container brandLogo" src="assets/logo.svg" alt="Nice's brand logo"></a>
 </nav>
 
 <main>
@@ -84,9 +84,9 @@
     </div>
 
     <div class="email before-footer">
-        <p>Enter your email address to sign up for the newsletter</p>
+        <label title="subscribe-title" id="subscibe-label" for="subscibe-input">Enter your email address to sign up for the newsletter</label>
         <div class="input-group center">
-            <input class="email-input" type="email" value="" required/>
+            <input id="subscibe-input" class="email-input" type="email" value="" required/>
             <input class="sign-up" type="submit" value="Sign up"/>
         </div>
     </div>

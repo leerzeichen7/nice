@@ -14,7 +14,7 @@ body {
 
 footer {
    width: 100%;
-   background-color: grey;
+   background-color: #333333;
    color: white;
    text-align: center;
    clear: both;
@@ -25,7 +25,7 @@ footer {
 
 .home-footer {
    width: 100%;
-   background-color: grey;
+   background-color: #333333;
    color: white;
    text-align: center;
    clear: both;
@@ -45,7 +45,7 @@ footer {
   width: 100px;
   float: left;
   display: block;
-  color: red;
+  color: #333333;
   text-align: center;
   padding: 30px 20px;
   text-decoration: none;
@@ -57,7 +57,7 @@ footer {
 }
 
 .navlink.active {
-  color: #FF6262; /*red*/
+  color: #A30000; /*red*/
   text-decoration: underline;
 }
 
@@ -74,7 +74,7 @@ footer {
 }
 
 a:hover {
-  color: #FF6262; /*red*/
+  color: #A30000; /*red*/
 }
 
 .center {
@@ -146,6 +146,10 @@ a {
    color: #A1D4C7; /*blue*/
 }
 
+.series-href {
+    color: #2A5A4C;
+}
+
 .email {
     display: block;
     text-align: center;
@@ -187,7 +191,7 @@ a {
 }
 
 .sign-up, .background-info {
-  color: #FF6262; /*red*/
+  color: #A30000; /*red*/
   text-align: center;
   text-decoration: none;
   border-style: solid;
@@ -233,7 +237,7 @@ dt {
 }
 
 dd {
-  color: #FF6262; /*red*/
+  color: #A30000; /*red*/
   text-align: center;
 }
 
