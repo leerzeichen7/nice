@@ -294,6 +294,30 @@ dd {
   max-width: 50%;
   padding-top: 30%;
 }
+
+ul.breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+
+}
+ul.breadcrumb li {
+  display: inline;
+  font-size: 18px;
+}
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
+}
+ul.breadcrumb li a {
+  color: #A1D4C7;
+  text-decoration: none;
+}
+ul.breadcrumb li a:hover {
+  color: #A30000;
+  text-decoration: underline;
+}
+
 /* Responsive==================================== */
 .responsive-iframe {
   position: absolute;

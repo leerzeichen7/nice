@@ -28,6 +28,11 @@
 
 <main>
     <div class="container">
+        <ul class="breadcrumb">
+            <li><span id="rootBreadscrumb"></span></li>
+            <li><span id="intermediateBreadscrumb"></span></li>
+            <li><a href="riot-games.html">Riot Games</a></li>
+        </ul>
         <div class="text-style">
             Riot Games
         </div>
@@ -89,6 +94,28 @@ function toggleTopNav() {
     x.className = "topnav";
   }
 }
+
+window.onload = function(){
+    const htmlMap = new Map();
+    htmlMap.set('Arcane', '../arcane.html');
+    htmlMap.set('Loki', '../loki.html');
+    htmlMap.set('Falcon and the Winter Soldier', '../the-falcon-and-the-winter-soldier.html');
+    htmlMap.set('Wanda Vision', '../wanda-vision.html');
+    htmlMap.set('Home', '../../home.html');
+    htmlMap.set('TV series', '../../tv-series.html');
+
+    document.getElementById('intermediateBreadscrumb').innerHTML = sessionStorage.breadcrumb;
+    document.getElementById('rootBreadscrumb').innerHTML = sessionStorage.rootBreadcrumb;
+
+    var toWriteRootTag = "<a href=" + htmlMap.get(sessionStorage.rootBreadcrumb) + ">" + sessionStorage.rootBreadcrumb + "</a>";
+    var toWriteTag = "<a href=" + htmlMap.get(sessionStorage.breadcrumb) + ">" + sessionStorage.breadcrumb + "</a>";
+
+    var tag = document.getElementById("rootBreadscrumb");
+    tag.innerHTML = toWriteRootTag;
+
+    var intermediateTag = document.getElementById("intermediateBreadscrumb");
+    intermediateTag.innerHTML = toWriteTag;
+};
 </script>
 </body>
 </html>

@@ -29,6 +29,9 @@
 
 <main>
     <div class="container">
+        <ul class="breadcrumb">
+            <li><a href="home.html">Home</a></li>
+        </ul>
         <h1>News</h1>
         <div class="line"></div>
 
@@ -110,6 +113,12 @@ function toggleTopNav() {
     x.className = "topnav";
   }
 }
+
+window.onload = function(){
+    sessionStorage.rootBreadcrumb = "Home";
+
+};
+
 </script>
 </body>
 </html>

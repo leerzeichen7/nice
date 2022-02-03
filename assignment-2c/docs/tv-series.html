@@ -28,6 +28,9 @@
 
 <main>
     <div class="container">
+        <ul class="breadcrumb">
+            <li><a href="tv-series.html">TV series</a></li>
+        </ul>
         <h1>TV Series</h1>
         <div class="line"></div>
 
@@ -91,6 +94,11 @@ function toggleTopNav() {
     x.className = "topnav";
   }
 }
+
+window.onload = function(){
+ sessionStorage.rootBreadcrumb = "TV series";
+
+};
 </script>
 </body>
 </html>

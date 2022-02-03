@@ -53,11 +53,15 @@
 <main>
     <div class="right-sidebar">
         <div class="logo-container">
-            <input type="button" class="background-info" onclick="location.href='background-info/riot-games.html';" value="Background info" />
+            <input type="button" class="background-info" onclick="location.href='background-info/riot-games.html';onclick=passPageName()" value="Background info" />
         </div>
     </div>
 
     <div class="container">
+        <ul class="breadcrumb">
+            <li><span id="rootBreadscrumb"></span></li>
+            <li><a href="arcane.html">Arcane</a></li>
+        </ul>
         <div class="text-style series-logo-container">
             <img class="series-title-logo" src="../assets/Arcane/Arcane_Logo.png" alt="Arcane logo">
         </div>
@@ -68,7 +72,7 @@
                 <iframe class="responsive-iframe" src="https://www.youtube.com/embed/3Svs_hl897c" title="YouTube video player"></iframe>
             </div>
             <div class="Rtable-cell">
-                Arcane (titled onscreen as Arcane: League of Legends) is an animated action-adventure-drama series created by Christian Linke and Alex Yee for <a href="https://www.netflix.com">Netflix</a>. Produced by Fortiche under the supervision of Riot Games, it is set in the League of Legends fictional universe, and primarily focuses on sisters Vi and Jinx. The series was announced at the League of Legends 10th anniversary celebration in 2019, and first released in November 6, 2021.
+                Arcane (titled onscreen as Arcane: League of Legends) is an animated action-adventure-drama series created by Christian Linke and Alex Yee for <a class="series-href" href="https://www.netflix.com">Netflix</a>. Produced by Fortiche under the supervision of Riot Games, it is set in the League of Legends fictional universe, and primarily focuses on sisters Vi and Jinx. The series was announced at the League of Legends 10th anniversary celebration in 2019, and first released in November 6, 2021.
                 <br/><br/>Arcane's first season was released to critical acclaim, with praise directed at its animation, story, world-building, characters, emotional weight and voice acting. Some have noted the series' appeal to both casual viewers who have never played League of Legends and to long-time fans of the game. It also set the record as Netflix's highest-rated series so far within a week of its premiere, ranked first on the Netflix Top 10 Chart in 52 countries, and ranked second on the chart in the United States.
                 <br/><br/>On November 20, 2021, following the conclusion of Arcane's first season, Riot Games and Netflix announced that a second season was in production for a post-2022 release.
                 <br/><br/>Amidst the escalating unrest between the rich, utopian city of Piltover and the seedy, oppressed undercity of Zaun, sisters Vi and Jinx find themselves on opposing sides of a brewing war over clashing convictions and arcane technologies.
@@ -94,6 +98,27 @@ function toggleTopNav() {
     x.className = "topnav";
   }
 }
+
+function passPageName() {
+  sessionStorage.breadcrumb = "Arcane";
+}
+
+window.onload = function(){
+    const htmlMap = new Map();
+    htmlMap.set('Arcane', '../arcane.html');
+    htmlMap.set('Loki', '../loki.html');
+    htmlMap.set('Falcon and the Winter Soldier', '../the-falcon-and-the-winter-soldier.html');
+    htmlMap.set('Wanda Vision', '../wanda-vision.html');
+    htmlMap.set('Home', '../home.html');
+    htmlMap.set('TV series', '../tv-series.html');
+
+    document.getElementById('rootBreadscrumb').innerHTML = sessionStorage.rootBreadcrumb;
+
+    var toWriteRootTag = "<a href=" + htmlMap.get(sessionStorage.rootBreadcrumb) + ">" + sessionStorage.rootBreadcrumb + "</a>";
+
+    var tag = document.getElementById("rootBreadscrumb");
+    tag.innerHTML = toWriteRootTag;
+};
 </script>
 </body>
 </html>
